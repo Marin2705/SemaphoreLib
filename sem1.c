@@ -1,6 +1,8 @@
 #include <unistd.h>
 #include "sem_pv.h"
 
+// gcc sem1.c -o sem1 -L. -lsempv
+
 // 1. Appel à "init_semaphore"
 // 2. Appel à "val_sem(2,1)"
 // 3. Appel à "P(2)"
