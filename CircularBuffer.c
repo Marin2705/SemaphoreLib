@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2023 Alexis LEBEL @ Poclain Hydraulics Industrie
- *   All rights reserved.
- */
 #include "CircularBuffer.h"
 
 int nullElt = 0;
