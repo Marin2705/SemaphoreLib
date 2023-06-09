@@ -1,16 +1,16 @@
-// #include <sys/types.h>
-// #include <sys/ipc.h>
-// #include <sys/sem.h>
-// #include <stdio.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/sem.h>
+#include <stdio.h>
 // #define N_SEM 1
 #include "sem_pv.h"
 
-// union semun
-// {
-//     int val;
-//     struct semid_ds *buf;
-//     ushort *array;
-// };
+union semun
+{
+    int val;
+    struct semid_ds *buf;
+    unsigned short *array;
+};
 
 int init_semaphore()
 {
